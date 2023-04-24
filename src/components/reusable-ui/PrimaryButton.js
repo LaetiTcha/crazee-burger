@@ -28,6 +28,7 @@ const PrimaryButtonStyled = styled.button`
     color: ${theme.colors.white};
     background-color: ${theme.colors.warning};
     border: 1px solid ${theme.colors.warning};
+    cursor: pointer;
 
     &:hover:not(:disabled) {
       background-color: ${theme.colors.white};
